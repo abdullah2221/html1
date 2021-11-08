@@ -1,0 +1,51 @@
+/* fieldset[class="per info"]{
+    width: 30%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+} */
+label{
+    display: inline-block;
+    width: 80px;
+    text-align: justify;
+    font-size: .8em;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border-color: 1px solid black;
+    background-color: seashell;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+input:hover{
+    background-color: lightyellow;
+}
+select{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+fieldset{
+    border-radius: 5px;
+    border-color: lightgray;
+    
+}
+legend{
+    padding: 7px;
+    background-color: lightgray;
+    color: royalblue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    size: 50px  ;
+}
+body{
+    background-color: lightblue;
+    text-align: center;
+}

@@ -1,0 +1,412 @@
+.images {
+    background-color: cornflowerblue;
+    height: 60px;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    width: 1378px;
+}
+
+.face {
+    position: absolute;
+    top: 23px;
+    left: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.twit {
+    border-radius: 5px;
+    position: absolute;
+    top: 23px;
+    left: 200px;
+    cursor: pointer;
+}
+
+.insta {
+    border-radius: 5px;
+    position: absolute;
+    top: 23px;
+    left: 250px;
+    cursor: pointer;
+}
+
+.yout {
+    border-radius: 5px;
+    position: absolute;
+    top: 25px;
+    left: 300px;
+    cursor: pointer;
+}
+
+.whats {
+    border-radius: 5px;
+    position: absolute;
+    top: 23px;
+    left: 350px;
+    cursor: pointer;
+}
+
+.buttons {
+    position: absolute;
+    top: 15px;
+    right: 100px;
+}
+
+.butt {
+    background-color: white;
+    border-color: seashell;
+    color: gray;
+    padding: 3px;
+    text-align: center;
+    width: 70px;
+    font-size: .6em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 25px;
+    cursor: pointer;
+}
+
+.main {
+    display: inline-block;
+    background-color: white;
+    border: none;
+    width: 1370px;
+    position: absolute;
+    top: 48px;
+    left: 1px;
+    height: 70px;
+    z-index: 1;
+}
+
+.links {
+    display: inline-block;
+    position: absolute;
+    right: 70px;
+    bottom: 10px;
+    /* border: 1px solid black; */
+    padding: 20px;
+    /* word-spacing: 1.2em;  */
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 09;
+}
+
+.link {
+    text-decoration: none;
+    padding: 10px;
+    color: gray;
+    border: none;
+    margin: 5px;
+    /* border: 1px solid black; */
+    border-width: 1px;
+    /* background-color: blue; */
+    border-radius: 20px 20px 20px 20px;
+    font-size: 1em;
+    border-collapse: collapse;
+}
+
+/* link:hover{
+    background-color: blue;
+}
+link:focus{
+    color: blue;
+    border: cornflowerblue;
+} */
+
+a:hover {
+    background-color: cornflowerblue;
+}
+
+a:focus {
+    background-color: cornflowerblue;
+}
+
+.saylani {
+    position: absolute;
+    bottom: 9px;
+    left: 80px;
+    width: 170px;
+    /* border:1px solid black; */
+    height: 60px;
+}
+
+.ehsaan {
+    width: 1365px;
+    height: 470px;
+    position: absolute;
+    top: 119px;
+    left: 2px;
+}
+
+.underpic {
+    z-index: -1;
+    font-size: 0.8em;
+    position: absolute;
+    top: 590px;
+    left: 70px;
+    background-color: cornflowerblue;
+    text-align: center;
+    width: 1200px;
+    height: 20px;
+    color: white;
+}
+
+.p1 {
+    position: relative;
+    bottom: 6px;
+    font-size: 10px;
+}
+
+
+
+.span1 {
+    color: green;
+}
+
+.span2 {
+    position: absolute;
+    top: 120px;
+    left: 640px;
+    color: green;
+    font-weight: bold;
+}
+.div4 {
+    /* border: 5px solid black; */
+    background-color:seashell;
+    z-index: -1;
+    height: 700px;
+    width: 1368px;
+    position: absolute;
+    top: 611px;
+    left: 1px;
+}
+h1 {
+    position: absolute;
+    top: 50px;
+    left: 570px;
+    text-align: center;
+    color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para1 {
+    /* border: 1px solid blue; */
+    position: absolute;
+    padding: 10px;
+    top: 160px;
+    margin: auto 220px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    letter-spacing: auto;
+}
+
+
+/* body{
+    background-color:lightgray;
+} */
+.div5{
+    /* border: 5px solid black; */
+    height: 500px;
+    width: 1360px;
+    position: absolute;
+    top: 1302px;
+    left: 1px;
+    background-color: blue;
+    text-align: justify;
+
+}
+.portion1{
+    line-height: .1em;
+    /* border: 1px solid black; */
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 80px;
+    left: 120px;
+}
+.portion2{
+    /* border: 2px solid black; */
+    display: inline-block;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    top: 80px;
+    left: 160px;
+    line-height: .2em;
+}
+.portion3   {
+    /* border: 2px solid black; */
+    display: inline-block;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    top: 80px;
+    left: 200px;
+    line-height: .2em;
+}
+.portion4{
+    /* border: 2px solid black; */
+    display: inline-block;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    top: 80px;
+    left: 240px;
+    line-height: .2em;
+}
+body{
+    background-color: seashell;
+}
+
+.p1{
+    font-size: 3em;
+        
+}
+.green{
+    color:lightgreen;
+
+}
+/* .link{
+    border: 1px solid black;
+    color: orange;
+} */
+#imd{
+    /* border: 8px solid orange; */
+    padding-top: 10px;
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 1880px;
+    left: 620px;
+    text-align: center;
+    color: green;
+
+}
+#h1{
+    /* border: 8px solid orange; */
+    padding-top: 10px;
+    display: inline-block;
+    height: 40px;
+    width: 500px;
+    position: absolute;
+    top: 1810px;
+    left: 440px;
+    text-align: center;
+}
+.d1{
+    /* border: 8px solid orange; */
+    display: inline-block;
+    height: 200px;
+    width: 370px;
+    position: absolute;
+    top: 1950px;
+    left: 98px;
+    text-align: center  ;
+    font-family: Arial, Helvetica, sans-serif;
+    background:white;
+    color: cornflowerblue;
+    box-shadow: 5px black;
+}
+#sadq{
+    position: relative;
+    top: 40px;
+}
+.d2{
+    /* border: 8px solid orange; */
+    display: inline-block;
+    height: 200px;
+    width: 370px;
+    position: absolute;
+    top: 1950px;
+    left: 500px;
+    text-align: center  ;
+    font-family: Arial, Helvetica, sans-serif;
+    background:white;
+    color: cornflowerblue;
+}
+#welf{
+    position: relative;
+    top: 35px;
+}
+.d3{
+    /* border: 8px solid orange; */
+    display: inline-block;
+    height: 200px;
+    width: 370px;
+    position: absolute;
+    top: 1950px;
+    left: 900px;
+    text-align: center  ;
+    font-family: Arial, Helvetica, sans-serif;
+    background:white;
+    color: cornflowerblue;
+}
+#medl{
+    position: relative;
+    top: 35px;
+}
+
+.d4{
+    /* border: 8px solid orange; */
+    display: inline-block;
+    height: 200px;
+    width: 370px;
+    position: absolute;
+    top: 2200px;
+    left: 98px;
+    text-align: center  ;
+    font-family: Arial, Helvetica, sans-serif;
+    background:white;
+    color: cornflowerblue;
+}
+#dast{
+    position: relative;
+    top: 35px;
+}
+.d5{
+    /* border: 8px solid orange; */
+    display: inline-block;
+    height: 200px;
+    width: 370px;
+    position: absolute;
+    top: 2200px;
+    left: 500px;
+    text-align: center  ;
+    font-family: Arial, Helvetica, sans-serif;
+    background:white;
+    color: cornflowerblue;
+}
+#roplant{
+    position: relative;
+    top: 35px;
+}
+.d6{
+    /* border: 8px solid orange; */
+    display: inline-block;
+    height: 200px;
+    width: 370px;
+    position: absolute;
+    top: 2200px;
+    left: 900px;
+    text-align: center  ;
+    font-family: Arial, Helvetica, sans-serif;
+    background:white;
+    color: cornflowerblue;
+}
+#edu{
+    position: relative;
+    top: 35px;
+}
+.e1{
+    float: left;
+    margin: 5px;
+}

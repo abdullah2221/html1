@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="style-admissionform.css">
+</head>
+
+<body>
+    <h1>J.K.M.B Malik High School</h1>
+
+    <h1>Admission Form </h1>
+    </legend>
+    <fieldset class="per info">
+        <legend>
+            <h2> Personel Information </h2>
+        </legend>
+        <div>
+            <p>
+                <label for="N">NAME:</label>
+                <input required type="text" placeholder="Full Name" id="N" style="text-indent:20%;">
+            </p>
+            <p> <label for="f">FATHER'S NAME:</label>
+                <input type="text" placeholder="FATHER'S NAME" id="f">
+            </p>
+            <p><label for="cnic"> CNIC:</label>
+                <input type="text" placeholder="CNIC Number" id="cnic">
+            </p>
+            <p>
+                <label for="col">FAVOURITE COLOR</label>
+                <input type="color" name="col-name" id="col">
+            </p>
+            <p> <label for="em-id">EMAIL:</label>
+                <input type="email" name="email" id="em-id">
+            </p>
+        </div>
+
+    </fieldset>
+    <fieldset>
+        <legend>
+            <h2> Residential Information </h2>
+        </legend>
+        <div>
+            <p>
+                <label for="city">CITY NAME:</label>
+                <input type="text" placeholder="City Name" id="city">
+            </p>
+            <p>
+                <label for="prov">PROVINCE:</label>
+                <select name="prov" id="prov">
+                    <option value="Punjab"> PUNJAb</option>
+                    <option value="SINDH">SINDH</option>
+                    <option value="balochistan">BALOCHISTAN</option>
+                    <option value="kpk">KPK</option>
+                    <option value="gilgat baltistan">GILGAT BALTISTAN</option>
+                </select>
+            </p>
+            <p>
+                <label for="cont">COUNTRY:</label>
+                <select name="coun" id="cont">
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="pk">PAKISTAN</option>
+                    <option value="india">INDIA</option>
+                    <option value="bang">BANGLADASH</option>
+                    <option value="sri">SRILANKA</option>
+                    <option value="germany">GERMANY</option>
+                </select>
+            </p>
+            <p><span style="line-height: 1.5em;">
+                    <label for="">GENDER:</label> <br>
+                    <label for="mal">MALE</label>
+                    <input type="radio" name="gender" id="mal" value="MALE">
+                    <label for="femal">FEMALE</label>
+                    <input type="radio" name="gender" id="femal">
+                    <label for="other">OTHERS</label>
+                    <input type="radio" name="gender" id="other">
+                </span>
+
+            </p>
+        </div>
+    </fieldset>
+    <div style="line-height: 1.5em;">
+        <fieldset>
+            <legend>
+                <h2>Academic Information</h2>
+            </legend>
+            <label for="">QUALIFICATION:</label> <br>
+            <label for="matric">Matric Completed</label>
+
+            <input type="checkbox" name="qualification" id="matric" value="Matric "> <br>
+            <label for="inter">Inter Completed</label>
+            <input type="checkbox" name="qualificatoin" id="inter" value="Inter ">
+        </fieldset>
+    </div>
+    <div style="line-break: loose; line-height: 2.5em;">
+        <input type="submit" value="Submit"><br>
+        <input type="reset" value="Reset">
+    </div>
+
+
+
+
+</body>
+
+</html>

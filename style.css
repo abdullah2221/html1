@@ -1,0 +1,37 @@
+/* h1{
+    color: blueviolet;
+    background-color: aqua;
+}
+.bio{
+    color: chartreuse;
+}
+div figcaption{
+    color: darkmagenta;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: 20px;
+    background-color: goldenrod;
+    background-size: 10px;
+}
+*{
+    background-color: rgba(214,105,65, 0.6) ;
+    text-align: center;
+}
+div>h1{
+    color: red;
+    opacity: 0.6;
+}
+.bio{
+    color: rgb(150, 67,201);
+    opacity: 0.6;
+}
+div figure{
+    background-color: rgba(214,105,65, 0.6);
+}
+div {
+    background-color: rgba(214,105,65, 0.6);
+} */
+div<p{
+    line-height: 2.5em;
+    width: 40%;
+}

@@ -1,0 +1,75 @@
+/* h1 {
+    color: burlywood;
+    background-color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p {
+    text-transform: lowercase;
+    text-align: justify;
+    line-height: 2.5em;
+    text-indent: 2%;
+}
+
+input:hover {
+    background-color: aquamarine;
+}
+
+input:focus {
+    background-color: darkviolet;
+}
+
+button:active {
+    background-color: seagreen;
+}
+
+p[class="dog"] {
+    color: sienna;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p[class~="dog"] {
+    color: purple;
+} */
+
+/* div>p{
+    line-height: 2em;
+    width: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+} */
+/* .sec{
+    border: 12px blue solid;
+    min-width: 400px;
+    max-width: 700px;
+    max-height: 400px;
+    text-align: justify;
+    background-color: rosybrown;
+    margin: 21px;
+
+}
+div>p{
+    padding: 8px;
+    background-color: slateblue;
+} */
+.li{
+    background-color:goldenrod;
+    padding: 4px;
+    margin: 4px;
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: slateblue ;
+    width: 200px;
+    padding-right: 6px;
+    padding-left: 20px;
+}
+.im{
+    display: inline;
+}

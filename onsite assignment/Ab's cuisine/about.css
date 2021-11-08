@@ -1,0 +1,21 @@
+.pa11{
+    color: darkviolet;
+    text-align: center;
+    font-weight: none;
+}
+.pa1{
+    text-align: justify;
+    margin: 0 10%;
+    text-transform: capitalize;
+    font-family: serif;
+    font-size: .7em;
+}
+h2{
+    text-align: center;
+}
+.div1{
+    line-height: .1em;
+}
+.last{
+    text-align: center;
+}
